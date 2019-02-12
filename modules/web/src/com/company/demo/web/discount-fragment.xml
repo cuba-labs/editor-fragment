@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fragment xmlns="http://schemas.haulmont.com/cuba/screen/fragment.xsd">
+    <data>
+        <instance id="clientDc"
+                  class="com.company.demo.entity.Client"
+                  view="_local"
+                  provided="true"/>
+    </data>
+    <layout>
+        <form id="form" dataContainer="clientDc"
+              childrenCaptionWidth="100px">
+            <column width="250px">
+                <textField id="discountField" property="discount"/>
+            </column>
+        </form>
+    </layout>
+</fragment>
